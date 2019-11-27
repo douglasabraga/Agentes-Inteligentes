@@ -69,6 +69,10 @@ public class Rede {
        s = s + "\n\n    "+camada2[0]+"    "+camada2[1]+"\n\n"+decisor.resumo();
        return s;
    }
+
+    public Neuronio getDecisor() {
+        return decisor;
+    }
    
    
 }

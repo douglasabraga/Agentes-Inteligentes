@@ -5,10 +5,10 @@ import java.util.ArrayList;
 
 public class Ambiente {
     private ArrayList cotacoes;
-    private double saldoReal;
-    private double saldoDolar;
-    private double renda;
-    private double rendimento;
+//    private double saldoReal;
+//    private double saldoDolar;
+//    private double renda;
+//    private double rendimento;
     private double m5;
     private double m10;
     private double m20;
@@ -48,8 +48,6 @@ public class Ambiente {
         cotacoes.add(1.68);
         cotacoes.add(1.69);
         
-        saldoReal = 1000;
-        saldoDolar = 1000;
         rede = new Rede();
     }
     
@@ -217,7 +215,7 @@ public class Ambiente {
     
     public double avaliacao6(){
         //Objetivo: determinar a probabilidade de ALTA na próxima cotação.
-        //Estratégia: frequencia menor de altas.
+        //Estratégia: frequencia menor de altas. 
         double variacao = 0;
         double atual, anterior, frequencia;
         
@@ -255,4 +253,10 @@ public class Ambiente {
         s = s + rede.resumo();
         return s;
     }
+
+    public Rede getRede() {
+        return rede;
+    }
+    
+    
 }

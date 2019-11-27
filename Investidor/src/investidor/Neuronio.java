@@ -87,4 +87,42 @@ public class Neuronio {
     public double getResultadoFinal(){
         return resultadoFinal;
     }
+
+    public String getAvaliacao() {
+        return avaliacao;
+    }
+
+    public double getEvidenciaFavoravel() {
+        return evidenciaFavoravel;
+    }
+
+    public double getEvidenciaDesfavoravel() {
+        return evidenciaDesfavoravel;
+    }
+
+    public double getGrauCerteza() {
+        return grauCerteza;
+    }
+
+    public double getGrauContradicao() {
+        return grauContradicao;
+    }
+
+    public double getGrauInconsistencia() {
+        return grauInconsistencia;
+    }
+
+    public double getGrauIndeterminacao() {
+        return grauIndeterminacao;
+    }
+
+    public double getGrauVerdade() {
+        return grauVerdade;
+    }
+
+    public double getGrauFalsidade() {
+        return grauFalsidade;
+    }
+    
+    
 }
